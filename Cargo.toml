@@ -32,7 +32,7 @@ features = [
 
 [dependencies.bevy]
 # git = "https://github.com/bevyengine/bevy"
-version = "0.14"
+version = "0.16.0-rc"
 default-features = false 
 features = ["bevy_asset"]
 
@@ -54,7 +54,7 @@ features = ["wav"]
 
 [dev-dependencies.bevy]
 # git = "https://github.com/bevyengine/bevy"
-version = "0.14"
+version = "0.16.0-rc"
 default-features = false
 features = [
   "bevy_core_pipeline",
