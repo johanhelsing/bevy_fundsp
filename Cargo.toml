@@ -19,7 +19,7 @@ bevy_audio = ["bevy/bevy_audio", "bevy/wav"]
 oddio = ["bevy_oddio"]
 
 [dependencies]
-fundsp = "0.18"
+fundsp = "0.20"
 cpal = "0.15"
 once_cell = "1.13"
 kira = { version = "0.8", default-features = false, features = ["wav"], optional = true }
