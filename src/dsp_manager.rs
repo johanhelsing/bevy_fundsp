@@ -37,7 +37,7 @@ impl DspManager {
         }
     }
 
-    pub(crate) fn add_graph<D: DspGraph>(&mut self, dsp_graph: D, source_type: SourceType) {
+    pub fn add_graph<D: DspGraph>(&mut self, dsp_graph: D, source_type: SourceType) {
         self.collection.insert(
             dsp_graph.id(),
             DspSource::new(dsp_graph, self.sample_rate, source_type),
