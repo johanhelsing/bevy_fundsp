@@ -42,7 +42,8 @@ pub enum SourceType {
 }
 
 impl DspSource {
-    pub(crate) fn new<D: DspGraph>(
+    /// Create a new DSP source from a graph, sample rate, and source type.
+    pub fn new<D: DspGraph>(
         dsp_graph: D,
         sample_rate: f32,
         source_type: SourceType,
